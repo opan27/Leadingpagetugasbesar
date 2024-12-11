@@ -1,4 +1,5 @@
 {
+  "homepage": "https://opan27.github.io/TugasBesar",
   "name": "nike-2-0",
   "private": true,
   "version": "0.0.0",
@@ -10,7 +11,8 @@
     "preview": "vite preview",
     "serve": "vite preview",
     "start": "vite",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "dependencies": {
     "eslint-config-prettier": "^9.0.0",

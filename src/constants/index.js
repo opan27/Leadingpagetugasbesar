@@ -1,5 +1,5 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
+import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, customer3, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
 
 export const navLinks = [
   { href: "#home", label: "Home" },
@@ -43,12 +43,12 @@ export const products = [
   {
     imgURL: shoe6,
     name: "Nike Air Jordan-100",
-    price: "$3.490.355",
+    price: "Rp 3.490.355",
   },
   {
     imgURL: shoe7,
     name: "Nike Air Jordan-001",
-    price: "$3.649.007",
+    price: "Rp 3.649.007",
   },
 ];
 
@@ -78,10 +78,16 @@ export const reviews = [
     feedback: "Perhatian terhadap detail dan kualitas produk melebihi ekspektasi saya. Sangat direkomendasikan!",
   },
   {
+    imgURL: customer3,
+    customerName: "Taufan",
+    rating: 4.5,
+    feedback: "Produknya tidak hanya memenuhi tetapi melampaui ekspektasi saya. Saya pasti akan menjadi pelanggan kembali!",
+  },
+  {
     imgURL: customer2,
     customerName: "Coki",
     rating: 4.5,
-    feedback: "Produknya tidak hanya memenuhi tetapi melampaui ekspektasi saya. Saya pasti akan menjadi pelanggan kembali!",
+    feedback: "Produk yang sangat terpercaya untuk seluruh dunia, saya suka ini!",
   },
 ];
 
